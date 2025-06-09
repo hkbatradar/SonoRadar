@@ -1,0 +1,1 @@
+export function initScrollSync({scrollSourceId:e,scrollTargetId:o}){const l=document.getElementById(e),n=document.getElementById(o);l&&n?l.addEventListener("scroll",(()=>{n.scrollLeft=l.scrollLeft})):console.warn("[scrollSync] One or both elements not found.")}
